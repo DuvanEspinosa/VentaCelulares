@@ -15,11 +15,11 @@ import java.awt.event.ActionListener;
 
 public class BotonClientePanel extends JPanel implements ActionListener
 {
-    private static final String ADD_CLIENTE = "AgregarCliente";
+    private static final String ADD_CLIENTE = "Agregar Cliente";
 
-    private static final String DELETE_CLIENTE = "EliminarCliente";
+    private static final String DELETE_CLIENTE = "Eliminar Cliente";
 
-    private static final String MODIFY_CLIENTE = "ModificarCliente";
+    private static final String MODIFY_CLIENTE = "Modificar Cliente";
 
     static Client client;
 
@@ -36,20 +36,20 @@ public class BotonClientePanel extends JPanel implements ActionListener
 
     public BotonClientePanel( )
     {
-        setBorder( new CompoundBorder( new EmptyBorder( 0, 0, 20, 0 ), new TitledBorder( "Opciones" ) ) );
+        setBorder( new CompoundBorder( new EmptyBorder( 20, 20, 110, 20 ), new TitledBorder( "Opciones" ) ) );
         setLayout( new GridLayout( 3, 1 ));
 
-        addCliente = new JButton( "Agregar Jugador" );
+        addCliente = new JButton( "Agregar Cliente" );
         addCliente.setActionCommand(ADD_CLIENTE);
         addCliente.addActionListener( this );
         add(addCliente);
 
-        deleteCliente = new JButton( "Eliminar Jugador" );
+        deleteCliente = new JButton( "Eliminar Cliente" );
         deleteCliente.setActionCommand(DELETE_CLIENTE);
         deleteCliente.addActionListener( this );
         add(deleteCliente);
 
-        modifyCliente = new JButton( "Modificar Jugador" );
+        modifyCliente = new JButton( "Modificar Cliente" );
         modifyCliente.setActionCommand(MODIFY_CLIENTE);
         modifyCliente.addActionListener( this );
         add(modifyCliente);

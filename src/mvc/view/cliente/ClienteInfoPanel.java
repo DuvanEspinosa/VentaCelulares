@@ -41,26 +41,26 @@ public class ClienteInfoPanel extends JPanel implements ActionListener {
         Font fontTxt = new Font("Arial", 2, 14);
 
 
-        jlblCedula = new JLabel("Cedula");
+        jlblCedula = new JLabel("    Cedula       ");
         jlblCedula.setFont(font);
 
-        jlblNombre = new JLabel("Nombre       ");
+        jlblNombre = new JLabel("    Nombre     ");
         jlblNombre.setFont(font);
 
 
-        jlblApellido = new JLabel("Apellido            ");
+        jlblApellido = new JLabel("      Apellido    ");
         jlblApellido.setFont(font);
 
-        jlblEmail = new JLabel("Email      ");
+        jlblEmail = new JLabel("    Email         ");
         jlblEmail.setFont(font);
 
-        jlblTelefono = new JLabel("Telefono      ");
+        jlblTelefono = new JLabel(" Telefono       ");
         jlblTelefono.setFont(font);
 
-        jlblTipoUsuario = new JLabel("TipoUsuario      ");
+        jlblTipoUsuario = new JLabel("Tipo Usuario  ");
         jlblTipoUsuario.setFont(font);
 
-        jlblComprasRealizadas = new JLabel("Compras      ");
+        jlblComprasRealizadas = new JLabel("Compras       ");
         jlblComprasRealizadas.setFont(font);
 
         comboClientes = new JComboBox( );

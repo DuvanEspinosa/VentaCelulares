@@ -14,11 +14,11 @@ import java.awt.event.ActionListener;
 
 public class BotonCelularPanel extends JPanel implements ActionListener
 {
-    private static final String AGREGAR_CELULAR = "AgregarCelular";
+    private static final String AGREGAR_CELULAR = "Agregar Celular";
 
-    private static final String BORRAR_CELULAR = "EliminarCelular";
+    private static final String BORRAR_CELULAR = "Eliminar Celular";
 
-    private static final String MODIFICAR_CELULAR = "ModificarCelular";
+    private static final String MODIFICAR_CELULAR = "Modificar Celular";
 
     private JButton agregarCelular;
 

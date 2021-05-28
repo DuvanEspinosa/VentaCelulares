@@ -17,7 +17,7 @@ public class InterfaceCelular extends JFrame
     public InterfaceCelular()
     {
         setTitle("Venta De Celulares");
-        setLayout( new GridLayout( 4, 1 ));
+        setLayout( new GridLayout( 2, 1 ));
         setSize( 950, 710 );
         setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
         setLocationRelativeTo(null);
